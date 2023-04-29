@@ -71,7 +71,7 @@ body a {
   margin-right: 25px;
 }
 
-.slider-content {
+.content-text-order {
   width: 459px;
   height: 228px;
   margin-top: 283px;
@@ -204,4 +204,29 @@ body a {
 
 .featured-prodacts img:nth-child(4) {
   margin-right: 0;
+}
+
+.promo {
+  /* height: 683px; */
+}
+
+.promo-content {
+  height: 683px;
+  width: 683px;
+  float: left;
+}
+
+.promo-content:first-child {
+  background-image: url(img/promo_img1.jpg);
+}
+
+.promo-content:nth-child(2) {
+  background-image: url(img/promo_img2.jpg);
+}
+
+
+
+
+.promo-content-text {
+  width: 374px;
 }
