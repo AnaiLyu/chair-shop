@@ -13,9 +13,15 @@ body a {
   text-decoration: none;
 }
 
+.clear {
+  clear: both;
+}
+
 .container {
   padding: 0 98px;
 }
+
+.explore-link {}
 
 .slider {
   width: 100%;
@@ -108,4 +114,64 @@ body a {
   width: 8px;
   height: 12px;
 
+}
+
+.slider-owl-carousel {
+  width: 120px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 140px;
+  padding: 5px;
+  box-sizing: border-box;
+
+}
+
+.slider-owl-circle {
+  display: inline-block;
+  opacity: 0.2;
+  background-color: #212121;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  /* float: left; */
+  /* margin-right: 15px; */
+  /* margin-top: 5px; */
+  /* box-sizing: border-box; */
+}
+
+/* .slider-owl-circle:last-child {
+  margin-right: 0;
+} */
+
+
+
+.featured-header {
+  padding-top: 120px;
+}
+
+.featured-header ul {
+  float: left;
+}
+
+.featured-header ul li {
+  display: inline-block;
+  list-style-type: none;
+  text-transform: capitalize;
+}
+
+.featured-header ul li a {
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #6c6c6c;
+  margin-right: 30px;
+}
+
+.featured-explore-link {
+  float: right;
+}
+
+.featured-prodacts {
+
+  padding-top: 48px;
 }
