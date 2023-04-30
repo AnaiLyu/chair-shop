@@ -74,6 +74,9 @@ body a {
 .content-text-order {
   width: 459px;
   height: 228px;
+}
+
+.slider-content {
   margin-top: 283px;
 }
 
@@ -206,14 +209,16 @@ body a {
   margin-right: 0;
 }
 
-.promo {
-  /* height: 683px; */
-}
+/* .promo {
+  height: 683px;
+} */
 
 .promo-content {
   height: 683px;
   width: 683px;
   float: left;
+  padding-left: 50px;
+  box-sizing: border-box;
 }
 
 .promo-content:first-child {
@@ -224,7 +229,17 @@ body a {
   background-image: url(img/promo_img2.jpg);
 }
 
+.promo-content-trending {
+  margin-top: 228px;
+  display: inline-block;
+  color: #1e88e5;
+}
 
+.promo-content-h2 {
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 700;
+}
 
 
 .promo-content-text {
