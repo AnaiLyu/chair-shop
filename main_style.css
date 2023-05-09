@@ -29,18 +29,18 @@ body ul li {
 
 .explore-link {
   font-size: 18px;
-  /* line-height: 24px; */
+  line-height: 24px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: #212121;
   float: right;
-  margin-top: 18px;
+  margin-top: 19px;
 }
 
 .explore-link::after {
   content: url(img/arrow.svg);
-  margin-left: 21px;
+  margin-left: 7px;
   width: 8px;
   height: 12px;
 }
@@ -84,25 +84,28 @@ body ul li {
 
 .header-menu {
   float: right;
-  padding-top: 68px;
+  padding-top: 55px;
   font-size: 14px;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 
+.header-menu ul {
+  margin-right: 53px;
+}
+
 .header-menu-list {
   display: inline-block;
-  margin-right: 25px;
+  margin-right: 1px;
+  padding: 0 9px 6px 9px;
 }
 
 .header-menu-list:hover {
-  padding-bottom: 5px;
   border-bottom: 3px solid #212121;
 }
 
 .header-menu-list:active {
-  padding-bottom: 5px;
   border-bottom: 2px solid #8c8c8c;
 }
 
@@ -119,21 +122,31 @@ body ul li {
   color: #8c8c8c;
 }
 
+.header-menu .header-menu-search {
+  padding: 0;
+  padding-bottom: 6px;
+  margin-right: 20px;
+}
+
+.header-menu .header-menu-search a img {
+  position: relative;
+  bottom: -7px;
+}
+
 .content-text-order {
   width: 459px;
   height: 228px;
 }
 
 .slider-content {
-  padding-top: 283px;
+  padding-top: 279px;
 }
 
 .content-trending {
   font-size: 18px;
-  line-height: 48px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 1px;
 }
 
 .slider-content-trending {
@@ -146,19 +159,15 @@ body ul li {
   font-weight: 100;
   text-transform: uppercase;
   color: #212121;
-  letter-spacing: -0.1em;
+  letter-spacing: -3px;
 }
 
 .content-text {
-  margin-top: 10px;
+  margin-top: 14px;
   font-size: 14px;
   line-height: 24px;
   font-weight: 300;
   color: #6c6c6c;
-}
-
-.slider-content-text {
-  margin-top: 10px;
 }
 
 .content-batton-order {
@@ -195,8 +204,8 @@ body ul li {
 }
 
 .slider-owl-carousel {
-  margin-top: 140px;
-  /* box-sizing: border-box; */
+  margin-top: 145px;
+  box-sizing: border-box;
   text-align: center;
 }
 
@@ -207,24 +216,34 @@ body ul li {
   border-radius: 50%;
   width: 30px;
   height: 30px;
-  margin: 5px 0;
+  margin: 5px;
   box-sizing: border-box;
+  outline: 5px solid rgba(255, 255, 255, 0);
 }
 
 .slider-owl-circle:hover {
   opacity: 1;
   width: 40px;
   height: 40px;
-  margin: 0 -5px;
+  margin: 0;
+  outline: none;
+}
+
+.slider-owl-circle:active {
+  opacity: 1;
+  width: 35px;
+  height: 35px;
+  margin: 2px;
+  outline: 5px solid rgba(22, 22, 22, 0.08);
 }
 
 .products-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 113px;
+  padding-bottom: 116px;
 }
 
 .featured-header {
-  margin-bottom: 43px;
+  margin-bottom: 51px;
 }
 
 .featured-header ul {
@@ -233,36 +252,28 @@ body ul li {
 
 .featured-header ul li {
   display: inline-block;
-  list-style-type: none;
-  text-transform: capitalize;
-  margin-right: 30px;
-  padding-bottom: 5px;
-  border-bottom: 3px solid #21212100;
-}
-
-.featured-header ul li:hover {
-  padding-bottom: 5px;
-  border-bottom: 3px solid #212121;
-}
-
-.featured-header ul li:active {
-  padding-bottom: 5px;
-  border-bottom: 2px solid #8c8c8c;
 }
 
 .featured-header ul li a {
+  display: inline-block;
+  text-transform: capitalize;
   font-size: 36px;
   line-height: 1.2;
   font-weight: 700;
   color: #6c6c6c;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #21212100;
 }
 
 .featured-header ul li a:hover {
   color: #212121;
+  border-bottom: 3px solid #212121;
 }
 
 .featured-header ul li a:active {
   color: #6c6c6c;
+  border-bottom: 2px solid #8c8c8c;
 }
 
 .featured-products .featured-products-hover {
@@ -353,9 +364,10 @@ body ul li {
 }
 
 .promo-content {
-  height: 683px;
+  min-height: 683px;
   width: 683px;
   float: left;
+  padding-top: 222px;
   padding-left: 50px;
   box-sizing: border-box;
 }
@@ -369,9 +381,9 @@ body ul li {
 }
 
 .promo-content-trending {
-  margin-top: 228px;
   display: inline-block;
   color: #1e88e5;
+  margin-bottom: 6px;
 }
 
 .promo-content-h2 {
@@ -379,12 +391,18 @@ body ul li {
   line-height: 1.2;
   font-weight: 700;
   text-transform: capitalize;
-  letter-spacing: 0.1px;
+  letter-spacing: -0.9px;
+  margin-bottom: 10px;
 }
 
 .promo-content-text {
   width: 374px;
   letter-spacing: -0.2px;
+  margin-top: 0;
+}
+
+.trending {
+  padding-bottom: 94px;
 }
 
 .trending-header h2 {
@@ -394,6 +412,7 @@ body ul li {
   color: #212121;
   text-transform: capitalize;
   float: left;
+  letter-spacing: -1px;
 }
 
 .trending-products {
@@ -402,18 +421,18 @@ body ul li {
 
 .trending .trending-products a {
   display: inline-block;
-  margin-right: 18px;
-  margin-bottom: 20px;
+  margin-right: 27px;
+  margin-bottom: 27px;
   width: 370px;
   height: 370px;
 }
 
-.trending-products img {
+.trending .trending-products img {
   width: 370px;
   height: 370px;
 }
 
-.trending-products img:nth-child(3n) {
+.trending .trending-products a:nth-child(3n) {
   margin-right: 0px;
 }
 
@@ -427,26 +446,28 @@ body ul li {
 }
 
 .slider-hot-deal-content {
-  margin-bottom: 210px;
+  margin-bottom: 230px;
 }
 
 .exclusive {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 114px;
+}
+
+.promo-content-exclusive:first-child {
+  width: 570px;
+  min-height: 570px;
+  background-image: url(img/promo_img3.jpg);
+  padding-top: 180px;
+  padding-left: 31px;
 }
 
 .exclusive .promo-content-text {
   width: 333px;
 }
 
-.promo-content-exclusive:first-child {
-  width: 570px;
-  height: 570px;
-  background-image: url(img/promo_img3.jpg);
-}
-
 .featured-products-exclusive img {
-  margin-left: 25px;
+  margin-left: 27px;
 }
 
 .featured-products-exclusive img:nth-child(1),
@@ -459,11 +480,11 @@ body ul li {
   min-height: 516px;
 }
 
-.mobile-app-container {
+.mobile-app .mobile-app-container {
   box-sizing: border-box;
 }
 
-.slider-content-mobile-app {
+.mobile-app .slider-content-mobile-app {
   padding: 120px 0;
 }
 
@@ -471,13 +492,19 @@ body ul li {
   color: #6c6c6c;
 }
 
+.mobile-app .slider-content-mobile-app .content-h2 {
+  letter-spacing: -4px;
+}
+
 .mobile-app .slider-content-mobile-app .content-text {
   font-size: 22px;
-  margin-bottom: 23px;
+  margin-bottom: 31px;
+  letter-spacing: -0.5px;
 }
 
 .mobile-app .slider-content-mobile-app a.mobile-app-store {
   display: inline-block;
   width: 135px;
   height: 40px;
+  margin-right: 5px;
 }
