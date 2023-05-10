@@ -48,6 +48,20 @@
 #reload:active {
   transform: scale(0.9);
 }
+.showroom-header {
+  margin-bottom: 30px;
+}
+nav.showroom-nav {
+  width: 100%;
+  display: inline-block;
+  background-color: #f4f4f4;
+}
+nav.showroom-nav ul {
+  float: none;
+  margin: 0 auto;
+  display: block;
+  min-width: 647px;
+}
 .footer {
   background-color: #f7f7f7;
   padding-top: 114px;
