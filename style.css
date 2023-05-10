@@ -1,3 +1,53 @@
+.top-header {
+  min-height: 360px;
+  background-color: #f5f5f5;
+}
+.top-header h2 {
+  text-transform: capitalize;
+  letter-spacing: -2px;
+  margin-top: 158px;
+}
+.section-products {
+  padding-top: 67px;
+  padding-bottom: 138px;
+}
+.section-products .featured-header {
+  margin-bottom: 0;
+}
+.section-products .section-products-menu {
+  float: none;
+}
+.section-products .section-products-menu li a {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-right: 18px;
+  padding-left: 7px;
+  padding-bottom: 14px;
+}
+.section-products .trending-products-products {
+  padding-top: 51px;
+  padding-bottom: 42px;
+}
+.section-products .trending-products-products a {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+#reload {
+  display: block;
+  width: 42px;
+  height: 29px;
+  margin: 0 auto;
+  background-image: url(img/rotate.svg);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+#reload:hover {
+  transform: scale(1.1);
+}
+#reload:active {
+  transform: scale(0.9);
+}
 .footer {
   background-color: #f7f7f7;
   padding-top: 114px;
